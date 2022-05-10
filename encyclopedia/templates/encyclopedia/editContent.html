@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Edit Content
+{% endblock %}
+
+
+
+{% block body %}
+    <h1>Edit your page</h1>
+    <h1>{{siteTitle}}</h1>
+
+    <textarea name = "content" rows="4" cols="4">{{siteContent}}</textarea>
+    <input type="submit">
+{% endblock %}
+
+
+    
